@@ -29,15 +29,15 @@ tenth frame.
 ## The requirements
 
 * Write class "BowlingGame" that has two methods
-	- roll(pins)
-		called each time the player rolls a ball. The argument is the number of pins knocked down.
-	- score()
-		called only after the very end of the game. Returns total score of the game.
+	- *roll(pins)*
+		- called each time the player rolls a ball. The argument is the number of pins knocked down.
+	- *score()*
+		- called only after the very end of the game. Returns total score of the game.
 
 
 ## Quick design session
 
-We have a game  
+One game  
 A game has 10 frames  
 A frame has one or two rolls  
 The tenth frame has two or three rolls. It's different from all the other frames  
