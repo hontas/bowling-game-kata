@@ -3,7 +3,7 @@ describe("BowlingGame", function() {
 
 	function rollMany (n, pins) {
 		while (n--) {
-			game.roll(pins)
+			game.roll(pins);
 		}
 	}
 
