@@ -64,7 +64,7 @@ Install and configure *karma test-runner*
 npm install -g karma
 npm install -g karma-mocha
 npm install -g karma-chai
-karma-init
+karma init
 
 	Testing framework: mocha
 	Require.js: no
